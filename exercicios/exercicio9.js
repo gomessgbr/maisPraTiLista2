@@ -11,10 +11,10 @@ function sumGenderSalary(){
       flag = false;
       return `Valor invalido`
     }
-    let gender = prompt('Qual o seu gênero ? M-masculino F-feminino? ');
-    if(gender.toLowerCase() === 'm'){
+    let gender = prompt('Qual o seu gênero ? M-masculino F-feminino? ').toLowerCase();
+    if(gender === 'm'){
       maleSalary+= salary;
-    }else if(gender.toLowerCase() === 'f'){
+    }else if(gender === 'f'){
       femaleSalary += salary;
     }else{
       flag = false;
@@ -31,10 +31,10 @@ function sumGenderSalary(){
 
 
 function continueOrNot(){
-  let decision = prompt('Deseja continuar ? s-sim n-não? ');
+  let decision = prompt('Deseja continuar ? s-sim n-não? ').toLowerCase();
 
-  if(decision.toLowerCase() === 'n'){
-    return flag = false;
+  if(decision === 'n'){
+    flag = false;
   }
 }
 
