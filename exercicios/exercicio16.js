@@ -23,9 +23,9 @@ function sortArr(arr){
       }
     }
     if (pivoIndex !== i) {
-      let temp = arr[i];
+      let pivo = arr[i];
       arr[i] = arr[pivoIndex];
-      arr[pivoIndex] = temp;
+      arr[pivoIndex] = pivo;
     }
   }
   return arr;
