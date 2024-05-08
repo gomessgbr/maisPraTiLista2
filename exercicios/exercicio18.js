@@ -1,7 +1,5 @@
 const prompt = require('prompt-sync')();
 
-
-
 function showEmployee(){
  let employee = {
     nome : '',
@@ -18,6 +16,5 @@ function getEmplyeeInfos(employee){
   employee.cargo = prompt("Digite o cargo: ");
   employee.salario = parseFloat(prompt("Digite o salário: "));
 }
-
 
 console.log(showEmployee());
