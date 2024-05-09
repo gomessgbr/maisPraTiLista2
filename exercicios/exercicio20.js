@@ -12,8 +12,15 @@ function paymentSalary(){
   }
 
 
-  for(let i = 0; i < 5; i++){
-
+  for(let i = 0; i < 80; i++){
+    
+    let employees = {
+      matricula : '',
+      nome: '',
+      bruto: '',
+      INSS: '',
+      liquido: ''
+    }
     let register = parseInt(prompt(`Escreva a matrícula do ${i + 1} funcionário: `));
     let name = prompt(`Escreva o nome do ${i + 1} funcionário: `);
     let salarioBruto = parseFloat(prompt(`Escreva o salário bruto do ${i + 1} funcionário: `));
