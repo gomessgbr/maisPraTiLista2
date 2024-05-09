@@ -3,14 +3,6 @@ const prompt = require('prompt-sync')();
 
 function paymentSalary(){
   let salary = [];
-  let employees = {
-    matricula : '',
-    nome: '',
-    bruto: '',
-    INSS: '',
-    liquido: ''
-  }
-
 
   for(let i = 0; i < 80; i++){
     
