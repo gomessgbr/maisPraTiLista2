@@ -1,4 +1,4 @@
-function makeMatrix() {
+function makeMatrixEx24() {
   let matrix = [];
   for (let i = 0; i < 3; i++) {
     matrix[i] = [];
@@ -27,7 +27,7 @@ function multiplyMatrices(matrixA , matrixB){
 
 }
 
-let matrixA = makeMatrix();
-let matrixB = makeMatrix();
+let matrixA = makeMatrixEx24();
+let matrixB = makeMatrixEx24();
 let productMatrix = multiplyMatrices(matrixA, matrixB);
 console.log(productMatrix);

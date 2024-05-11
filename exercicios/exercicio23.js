@@ -1,4 +1,4 @@
-function makeMatrix() {
+function makeMatrixEx22() {
   let matrix = [];
 
   for (let i = 0; i < 7; i++) {
@@ -21,4 +21,4 @@ function showMatrix(matrix) {
   }
 }
 
-makeMatrix();
+makeMatrixEx22();

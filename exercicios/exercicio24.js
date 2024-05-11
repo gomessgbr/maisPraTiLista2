@@ -1,4 +1,4 @@
-function makeMatrix() {
+function makeMatrixEx24() {
   let matrix = [];
   for (let i = 0; i < 6; i++) {
     matrix[i] = [];
@@ -33,7 +33,7 @@ function showMatrix(matrix) {
   }
 }
 
-let matrixM = makeMatrix();
+let matrixM = makeMatrixEx24();
 console.log("Matriz M:");
 showMatrix(matrixM);
 

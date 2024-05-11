@@ -1,4 +1,4 @@
-function makeMatrix(){
+function makeMatrixEx24(){
   let matrix = [];
   let sumAbove= 0;
   let sumBelow = 0;

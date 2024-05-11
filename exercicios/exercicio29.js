@@ -1,4 +1,4 @@
-function makeMatrix(){
+function makeMatrixEx24(){
   let matrixM = [];
   let sum4Row = 0;
   let sum2Column= 0;
@@ -39,4 +39,4 @@ function showMatrix(matrix) {
   }
 }
 
-makeMatrix();
+makeMatrixEx24();

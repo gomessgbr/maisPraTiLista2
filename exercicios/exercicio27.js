@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-function makeMatrix(){
+function makeMatrixEx27(){
   let valueA = parseInt(prompt("Escreva um valor: "));
   if(isNaN(valueA)){
     return 'Valor inválido';
@@ -18,4 +18,4 @@ function makeMatrix(){
   return result;
 }
 
-console.log(makeMatrix());
+console.log(makeMatrixEx27());

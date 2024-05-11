@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 
-function makeMatrix() {
+function makeMatrixEx25() {
   let matrix = [];
 
   for (let i = 0; i < 15; i++) {
@@ -29,4 +29,4 @@ function showSumMatrix(matrix) {
   }
 }
 
-makeMatrix();
+makeMatrixEx25();

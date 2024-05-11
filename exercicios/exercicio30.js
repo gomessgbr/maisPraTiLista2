@@ -1,4 +1,4 @@
-function makeMatrix(){
+function makeMatrixEx24(){
   let matrixM = [];
   let vectorSL = [0,0,0,0,0];
   let vectorSC = [0,0,0,0,0];
@@ -27,4 +27,4 @@ function showMatrix(matrix) {
   }
 }
 
-makeMatrix();
+makeMatrixEx24();
