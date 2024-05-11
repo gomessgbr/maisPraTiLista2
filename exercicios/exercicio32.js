@@ -23,14 +23,13 @@ function makeMatrixEx32(){
 }
 
 function findMaxValue(row){
-  let maxAbsValue = row[0] < 0 ? -row[0] : row[0];
+  let maxValue = row[0];
   for(let i = 1; i < row.length; i++){
-    let absValue = row[i] < 0 ? -row[i] : row[i];
-    if(absValue > maxAbsValue){
-      maxAbsValue = absValue;
+    if(row[i] > maxValue){
+      maxValue = row[i];
     }
   }
-  return maxAbsValue;
+  return maxValue;
 }
 
 function divideRowByValue(row, value){
