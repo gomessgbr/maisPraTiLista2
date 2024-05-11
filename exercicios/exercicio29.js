@@ -26,10 +26,10 @@ function makeMatrixEx24(){
   console.log(`Soma da diagonal principal da matriz M = ${sumMain}`);
   console.log(`Soma de todos os elementos da matriz M = ${sumAll}`);
   console.log('MatrizM =');
-  showMatrix(matrixM);
+  showMatrixEx29(matrixM);
 }
 
-function showMatrix(matrix) {
+function showMatrixEx29(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     let row = "";
     for (let j = 0; j < matrix[i].length; j++) {

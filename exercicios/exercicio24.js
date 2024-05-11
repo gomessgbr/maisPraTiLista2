@@ -23,7 +23,7 @@ function negativeCounter(matrix) {
   return vetorC;
 }
 
-function showMatrix(matrix) {
+function showMatrixEx24(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     let row = "";
     for (let j = 0; j < matrix[i].length; j++) {
@@ -35,7 +35,7 @@ function showMatrix(matrix) {
 
 let matrixM = makeMatrixEx24();
 console.log("Matriz M:");
-showMatrix(matrixM);
+showMatrixEx24(matrixM);
 
 let vetorC = negativeCounter(matrixM);
 console.log("\nVetor C:");

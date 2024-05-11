@@ -11,13 +11,13 @@ function makeMatrixEx24(){
     }
   }
 
-  showMatrix(matrixM);
+  showMatrixEx30(matrixM);
   console.log('Vetor SL(5):', vectorSL);
   console.log('Vetor SC(5):', vectorSC);
 }
 
 
-function showMatrix(matrix) {
+function showMatrixEx30(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     let row = "";
     for (let j = 0; j < matrix[i].length; j++) {

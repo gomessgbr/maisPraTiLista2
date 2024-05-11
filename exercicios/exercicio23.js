@@ -8,10 +8,10 @@ function makeMatrixEx22() {
     }
   }
 
-  return showMatrix(matrix);
+  return showMatrixEx23(matrix);
 }
 
-function showMatrix(matrix) {
+function showMatrixEx23(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     let row = "";
     for (let j = 0; j < matrix[i].length; j++) {
