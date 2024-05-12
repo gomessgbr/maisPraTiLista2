@@ -1,5 +1,3 @@
-let prompt = require('prompt-sync')();
-
 function makeMatrixEx35(){
 
   let vectorEven = [];
