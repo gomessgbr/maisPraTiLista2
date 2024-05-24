@@ -1,0 +1,39 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Tropical Hotel",
+      "city": "Rio de Janeiro",
+      "totalRooms": 100,
+      "availableRooms": 20
+    },
+    {
+      "id": 2,
+      "name": "Luxor Hotel",
+      "city": "São Paulo",
+      "totalRooms": 200,
+      "availableRooms": 50
+    },
+    {
+      "id": 3,
+      "name": "Wonderful Hotel",
+      "city": "Salvador",
+      "totalRooms": 150,
+      "availableRooms": 30
+    },
+    {
+      "id": 4,
+      "name": "Plaza Hotel",
+      "city": "São Paulo",
+      "totalRooms": 1200,
+      "availableRooms": 1200
+    },
+    {
+      "id": 5,
+      "name": "Gomes Hotel",
+      "city": "Natal",
+      "totalRooms": 5000,
+      "availableRooms": 400
+    }
+  ]
+}
